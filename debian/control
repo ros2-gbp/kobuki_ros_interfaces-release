@@ -1,0 +1,12 @@
+Source: ros-foxy-kobuki-ros-interfaces
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-action-msgs, ros-foxy-ament-cmake, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-rosidl-default-generators, ros-foxy-std-msgs, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp
+Homepage: https://index.ros.org/k/kobuki_ros_interfaces/github-kobuki-base-kobuki_ros_interfaces
+Standards-Version: 3.9.2
+
+Package: ros-foxy-kobuki-ros-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-action-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-std-msgs, ros-foxy-ros-workspace
+Description: ROS2 message, service and action interfaces for the Kobuki.
