@@ -14,7 +14,7 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: devel
+    devel_branch: release/1.0.x
     last_version: 1.0.0
     name: kobuki_ros_interfaces
     patches: null
