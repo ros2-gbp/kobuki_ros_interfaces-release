@@ -1,1 +1,1 @@
-{"base": "1e8305d", "parent": "debian/rolling/kobuki_ros_interfaces", "previous": "1a60d7a", "trim": "", "trimbase": ""}
+{"base": "ca76643", "parent": "debian/jazzy/kobuki_ros_interfaces", "previous": "7d437f3", "trim": "", "trimbase": ""}
