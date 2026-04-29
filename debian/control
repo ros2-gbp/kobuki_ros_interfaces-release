@@ -1,0 +1,12 @@
+Source: ros-lyrical-kobuki-ros-interfaces
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-action-msgs, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rosidl-default-generators, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/k/kobuki_ros_interfaces/github-kobuki-base-kobuki_ros_interfaces
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-kobuki-ros-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-action-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: ROS2 message, service and action interfaces for the Kobuki.
